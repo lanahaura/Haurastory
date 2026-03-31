@@ -34,7 +34,7 @@
                 <tr class="border-t hover:bg-yellow-50">
                     <td class="p-3">
                         @if(!empty($b->cover))
-                            <img src="{{ asset('storage/'.$b->cover) }}"
+                            <img src="{{ asset($b->cover) }}"
                                  class="w-12 h-16 object-cover rounded-xl border border-yellow-100 shadow-sm"
                                  alt="cover">
                         @else

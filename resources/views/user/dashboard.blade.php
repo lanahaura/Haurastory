@@ -86,7 +86,7 @@
                                     {{-- COVER --}}
                                     <div class="shrink-0">
                                         @if(!empty($book->cover))
-                                            <img src="{{ asset('storage/'.$book->cover) }}"
+                                            <img src="{{ asset($book->cover) }}"
                                                  class="w-24 h-32 object-cover rounded-2xl border border-yellow-100 shadow-sm"
                                                  alt="cover">
                                         @else
